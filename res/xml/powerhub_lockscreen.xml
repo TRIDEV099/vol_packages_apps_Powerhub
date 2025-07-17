@@ -32,6 +32,14 @@
         android:icon="@drawable/ic_powerhub_media_expressive"
         android:fragment="com.power.hub.fragments.LockScreenMediaSettings" />
 
+    <!-- Edge Light -->
+    <Preference
+        android:key="edge_light_settings"
+        android:icon="@drawable/ic_powerhub_edge_light_expressive"
+        android:title="@string/edge_light_title"
+        android:summary="@string/edge_light_summary"
+        android:fragment="com.power.hub.fragments.EdgeLightSettings" />
+
     <Preference
         android:key="lockscreen_fingerprint_settings"
         android:title="@string/fingerprint_category"
