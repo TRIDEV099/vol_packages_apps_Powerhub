@@ -34,6 +34,13 @@
         android:icon="@drawable/ic_powerhub_clock_expressive"
         android:fragment="com.power.hub.fragments.Clock" />
 
+     <Preference
+         android:key="cutout_progress"
+         android:title="@string/cutout_progress_title"
+         android:summary="@string/cutout_progress_summary"
+         android:icon="@drawable/ic_powerhub_cutout_progress_expressive"
+         android:fragment="com.power.hub.fragments.CutoutProgressSettingsFragment" />
+
     <Preference
         android:key="battery_bar_category"
         android:fragment="com.power.hub.fragments.BatterySettings"
